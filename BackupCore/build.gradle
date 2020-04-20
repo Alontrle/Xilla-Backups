@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.1.0'
+}
+
+group 'net.xilla'
+version '1.0-SNAPSHOT'
+mainClassName = "net.xilla.backupcore.BackupCore"
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+    compile 'org.mongodb:mongodb-driver-legacy:4.0.2'
+    compile group: 'org.mongodb', name: 'bson', version: '3.0.4'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.13'
+    compile group: 'commons-net', name: 'commons-net', version: '3.6'
+    compile group: 'com.jcraft', name: 'jsch', version: '0.1.44-1'
+    testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.1'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'net.xilla.backupcore.Main'
+    }
+}
