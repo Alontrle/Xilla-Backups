@@ -2,9 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e6360ef-194b-448c-9559-af3752212087" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/database/MongoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/database/MongoManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/database/worker/request/RequestManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/database/worker/request/RequestWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/database/worker/response/ResponseManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/database/worker/response/ResponseWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/database/worker/storage/StorageWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/manager/ManagerParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/api/manager/ManagerParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/commandsystem/cmd/Help.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/build/classes/java/main/net/xilla/backupcore/commandsystem/cmd/Help.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/build/libs/BackupCore-1.0-SNAPSHOT-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/build/libs/BackupCore-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/database/MongoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/database/MongoManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/database/worker/request/RequestManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/database/worker/request/RequestWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/database/worker/response/ResponseManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/database/worker/response/ResponseWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/database/worker/storage/StorageWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/manager/ManagerParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupCore/src/main/java/net/xilla/backupcore/api/manager/ManagerParent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/command/BackupManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/command/BackupManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/command/StorageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/command/StorageManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/manager/backup/response/NodeBackupFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/manager/backup/response/NodeBackupFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/manager/node/request/NodePing.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/manager/node/request/NodePing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/manager/node/request/NodeRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/xilla/backupmaster/manager/node/request/NodeRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/BackupCore-1.0-SNAPSHOT-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/BackupCore-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xilla/backupmaster/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xilla/backupmaster/command/StorageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xilla/backupmaster/command/StorageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xilla/backupmaster/manager/backup/response/NodeBackupFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xilla/backupmaster/manager/backup/response/NodeBackupFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xilla/backupmaster/manager/node/request/NodePing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xilla/backupmaster/manager/node/request/NodePing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BackupSlave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/command/Backup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/command/Backup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/manager/backup/BackupWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/manager/backup/BackupWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/manager/backup/response/send/FailedBackupFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/manager/backup/response/send/FailedBackupFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/manager/node/NodeWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/manager/node/NodeWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/manager/node/response/NodePingback.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/build/classes/java/main/net/xilla/backupslave/manager/node/response/NodePingback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/libs/BackupCore-1.0-SNAPSHOT-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/libs/BackupCore-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/command/Backup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/command/Backup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/manager/backup/BackupWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/manager/backup/BackupWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/manager/backup/response/send/FailedBackupFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/manager/backup/response/send/FailedBackupFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/manager/node/NodeWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/manager/node/NodeWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/manager/node/response/NodePingback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BackupSlave/src/main/java/net/xilla/backupslave/manager/node/response/NodePingback.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +133,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15722656" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,6 +143,7 @@
       <recent name="C:\Users\Tobias\Documents\BackupMaster\libs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tobias\Documents\GitHub\Xilla-Backups\BackupMaster\libs" />
       <recent name="C:\Users\Tobias\Documents\BackupMaster\libs" />
       <recent name="C:\Users\Tobias\Documents\BackupMaster\build\libs" />
       <recent name="C:\Users\Tobias\Documents\BackupMaster\src\main\java\net\xilla\backupmaster\api" />
@@ -89,9 +161,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.xilla.backupmaster.Main" />
+  <component name="RunManager" selected="Application.BackupMaster">
+    <configuration name="BackupMaster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.xilla.backupmaster.BackupMaster" />
       <module name="BackupMaster.main" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BackupMaster" />
         <item itemvalue="Gradle.BackupMaster [shadowJar]" />
       </list>
     </recent_temporary>
@@ -147,7 +219,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

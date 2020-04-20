@@ -1,10 +1,8 @@
 package net.xilla.backupslave.command;
 
 import net.xilla.backupcore.api.Log;
-import net.xilla.backupcore.api.config.Config;
-import net.xilla.backupcore.api.config.ConfigManager;
 import net.xilla.backupcore.commandsystem.CommandObject;
-import net.xilla.backupslave.Main;
+import net.xilla.backupslave.BackupSlave;
 
 public class Backup extends CommandObject {
 
@@ -15,7 +13,7 @@ public class Backup extends CommandObject {
     @Override
     public boolean run(String[] args) {
         Log.sendMessage(0, "You have forcefully ran a backup!");
-        Main.getInstance().getBackupWorker().runBackup();
+        BackupSlave.getInstance().getBackupWorker().runBackup();
         return true;
     }
 }

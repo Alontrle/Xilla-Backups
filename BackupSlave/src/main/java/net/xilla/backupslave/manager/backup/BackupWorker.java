@@ -1,34 +1,22 @@
 package net.xilla.backupslave.manager.backup;
 
-import com.mongodb.client.MongoCollection;
 import net.xilla.backupcore.BackupCore;
 import net.xilla.backupcore.api.Log;
 import net.xilla.backupcore.api.config.Config;
 import net.xilla.backupcore.api.config.ConfigManager;
 import net.xilla.backupcore.api.database.MongoDocument;
-import net.xilla.backupcore.api.database.worker.client.ClientManager;
 import net.xilla.backupcore.api.worker.Worker;
 import net.xilla.backupcore.filesystem.file.FileObject;
-import net.xilla.backupcore.filesystem.filemap.FileMapObject;
 import net.xilla.backupcore.nodesystem.clientserver.ClientServerObject;
-import net.xilla.backupslave.Main;
 import org.apache.commons.codec.digest.DigestUtils;
-import org.bson.Document;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.Time;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.*;
 import java.util.*;
-import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class BackupWorker extends Worker {

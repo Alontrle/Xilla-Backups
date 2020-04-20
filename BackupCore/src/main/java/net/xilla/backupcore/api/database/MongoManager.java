@@ -1,44 +1,41 @@
 package net.xilla.backupcore.api.database;
 
-import net.xilla.backupcore.BackupCore;
 import net.xilla.backupcore.api.database.worker.client.ClientManager;
 import net.xilla.backupcore.api.database.worker.client.ClientWorker;
 import net.xilla.backupcore.api.database.worker.node.NodeManager;
 import net.xilla.backupcore.api.database.worker.node.NodeWorker;
-import net.xilla.backupcore.api.database.worker.request.RequestManager;
-import net.xilla.backupcore.api.database.worker.request.RequestWorker;
-import net.xilla.backupcore.api.database.worker.response.ResponseManager;
-import net.xilla.backupcore.api.database.worker.response.ResponseWorker;
+import net.xilla.backupcore.api.database.worker.request.RequestDBManager;
+import net.xilla.backupcore.api.database.worker.request.RequestDBWorker;
+import net.xilla.backupcore.api.database.worker.response.ResponseDBManager;
+import net.xilla.backupcore.api.database.worker.response.ResponseDBWorker;
 import net.xilla.backupcore.api.database.worker.storage.StorageManager;
-import net.xilla.backupcore.api.database.worker.storage.StorageWorker;
-import net.xilla.backupcore.api.worker.Worker;
-import net.xilla.backupcore.filesystem.filemap.FileMapManager;
+import net.xilla.backupcore.api.database.worker.storage.StorageDBWorker;
 
 public class MongoManager {
 
     private ClientWorker clientWorker;
     private NodeWorker nodeWorker;
-    private RequestWorker requestWorker;
-    private ResponseWorker responseWorker;
-    private StorageWorker storageWorker;
+    private RequestDBWorker requestWorker;
+    private ResponseDBWorker responseWorker;
+    private StorageDBWorker storageWorker;
 
     private ClientManager clientManager;
     private NodeManager nodeManager;
-    private RequestManager requestManager;
-    private ResponseManager responseManager;
+    private RequestDBManager requestManager;
+    private ResponseDBManager responseManager;
     private StorageManager storageManager;
 
     public MongoManager() {
         this.clientWorker = new ClientWorker();
         this.nodeWorker = new NodeWorker();
-        this.requestWorker = new RequestWorker();
-        this.responseWorker = new ResponseWorker();
-        this.storageWorker = new StorageWorker();
+        this.requestWorker = new RequestDBWorker();
+        this.responseWorker = new ResponseDBWorker();
+        this.storageWorker = new StorageDBWorker();
 
         this.clientManager = new ClientManager();
         this.nodeManager = new NodeManager();
-        this.requestManager = new RequestManager();
-        this.responseManager = new ResponseManager();
+        this.requestManager = new RequestDBManager();
+        this.responseManager = new ResponseDBManager();
         this.storageManager = new StorageManager();
     }
 
@@ -59,11 +56,11 @@ public class MongoManager {
         storageManager.loadManager();
     }
 
-    public ResponseManager getResponseManager() {
+    public ResponseDBManager getResponseManager() {
         return responseManager;
     }
 
-    public RequestManager getRequestManager() {
+    public RequestDBManager getRequestManager() {
         return requestManager;
     }
 
@@ -83,11 +80,11 @@ public class MongoManager {
         return nodeWorker;
     }
 
-    public RequestWorker getRequestWorker() {
+    public RequestDBWorker getRequestWorker() {
         return requestWorker;
     }
 
-    public ResponseWorker getResponseWorker() {
+    public ResponseDBWorker getResponseWorker() {
         return responseWorker;
     }
 
@@ -95,7 +92,7 @@ public class MongoManager {
         return storageManager;
     }
 
-    public StorageWorker getStorageWorker() {
+    public StorageDBWorker getStorageWorker() {
         return storageWorker;
     }
 }

@@ -7,13 +7,9 @@ import net.xilla.backupcore.filesystem.file.FileObject;
 import net.xilla.backupcore.filesystem.filemap.FileMapObject;
 import net.xilla.backupcore.nodesystem.NodeObject;
 import net.xilla.backupcore.nodesystem.clientserver.ClientServerObject;
-import net.xilla.backupcore.storagesystem.StorageServerManager;
 import net.xilla.backupcore.storagesystem.StorageServerObject;
-import net.xilla.backupmaster.Main;
 import net.xilla.backupmaster.manager.backup.BackupWorker;
 import org.bson.Document;
-
-import java.util.HashMap;
 
 public class NodeBackupFiles extends ClientEventHandler {
 

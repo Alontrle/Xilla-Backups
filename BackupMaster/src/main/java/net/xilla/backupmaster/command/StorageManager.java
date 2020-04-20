@@ -3,13 +3,10 @@ package net.xilla.backupmaster.command;
 import net.xilla.backupcore.BackupCore;
 import net.xilla.backupcore.api.Data;
 import net.xilla.backupcore.api.Log;
-import net.xilla.backupcore.api.manager.ManagerObject;
 import net.xilla.backupcore.commandsystem.CommandObject;
-import net.xilla.backupcore.nodesystem.NodeObject;
 import net.xilla.backupcore.storagesystem.StorageServerObject;
 import net.xilla.backupcore.storagesystem.type.FTPServer;
 import net.xilla.backupcore.storagesystem.type.SFTPServer;
-import net.xilla.backupmaster.Main;
 
 import java.util.ArrayList;
 import java.util.UUID;
