@@ -9,6 +9,12 @@ Discord : https://discord.gg/aSKqa5W<br>
 Website : https://xilla.net<br>
 License : GNU General Public License v3.0<br>
 
+# Compatability
+The slave server will work with any of the following game server solutions.<br>
+https://pterodactyl.io/
+https://www.multicraft.org/
+
+
 # Features
 - Unlimited clients<br>
 - Unlimited backup servers<br>
