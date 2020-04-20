@@ -43,10 +43,6 @@ public class Main {
         backupWorker = new BackupWorker();
         backupWorker.start();
 
-//        SFTPServer sftpServer = new SFTPServer(UUID.randomUUID().toString(), "104.128.60.235", 22, "root", "HD844hg38fg39", new ArrayList<>());
-//        backupCore.getStorageServerManager().registerServer(sftpServer);
-//        backupCore.getMongoManager().getStorageWorker().addDocument(sftpServer.toDocument());
-
         backupCore.getMongoManager().getClientManager().registerHandler(new NodeBackupFiles());
 
         backupCore.getMongoManager().getRequestManager().registerHandler(new NodePing());
