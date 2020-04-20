@@ -11,9 +11,8 @@ License : GNU General Public License v3.0<br>
 
 # Compatability
 The slave server will work with any of the following game server solutions.<br>
-https://pterodactyl.io/
-https://www.multicraft.org/
-
+https://pterodactyl.io/<br>
+https://www.multicraft.org/<br>
 
 # Features
 - Unlimited clients<br>
